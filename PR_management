@@ -1,32 +1,32 @@
 ### Workflow Outline for Managing a Pull Request- helpful reminder
 
-1. **Create a Branch**
-   - **Check Your Current Branch**: Make sure you're starting from the correct base branch (often `main` or `master`).
-   - **Create and Switch to Your New Branch**: Use `git checkout -b your-branch-name` to create and switch to your new branch.
+1. Create a Branch
+   - Check current branch
+   - Create and Switch to Your New Branch: Use `git checkout -b your-branch-name` to create and switch to your new branch.
 
-2. **Make Changes Locally**
-   - **Edit, Add, and Commit Changes**: Make your changes, use `git add .` to stage them, and `git commit -m "your commit message"` to commit them.
+2. Make Changes Locally
+   - Edit, Add, and Commit Changes: Make your changes, use `git add .` to stage them, and `git commit -m "your commit message"` to commit them.
 
-3. **Push Changes to Remote Repository**
-   - **First Push with Upstream**: Use `git push --set-upstream origin your-branch-name` to push your branch to the remote repository and set the tracking branch.
-   - **Subsequent Pushes**: After the upstream is set, use `git push` for any additional changes.
+3. Push Changes to Remote Repository
+   - First Push with Upstream: Use `git push --set-upstream origin your-branch-name` to push your branch to the remote repository and set the tracking branch.
+   - Subsequent Pushes: After the upstream is set, use `git push` for any additional changes.
 
-4. **Create Pull Request**
-   - **Open Pull Request on GitHub**: Navigate to your repository on GitHub and start the pull request.
-   - **Select the Base and Compare Branches**: Choose the base branch (usually `main` or `master`) and your feature branch.
-   - **Fill Out the Pull Request Form**: Include a clear title and description. Mention any team members for review.
-   - **Submit the Pull Request**: After reviewing your own changes, submit the pull request.
+4. Create Pull Request
+   - Open Pull Request on GitHub: Navigate to your repository on GitHub and start the pull request.
+   - Select the Base and Compare Branches: Choose the base branch (usually `main` or `master`) and your feature branch.
+   - Fill Out the Pull Request Form: Include a clear title and description. Mention any team members for review.
+   - Submit the Pull Request: After reviewing your own changes, submit the pull request.
 
-5. **Review Process**
-   - **Wait for Reviews**: Allow team members to review the changes.
-   - **Address Feedback**: Make necessary adjustments based on feedback and push additional commits if required.
+5. Review Process
+   - Wait for Reviews: Allow team members to review the changes.
+   - Address Feedback: Make necessary adjustments based on feedback and push additional commits if required.
 
-6. **Merge the Pull Request**
-   - **Check for Approval and Passing Checks**: Ensure that you have the necessary approvals and that all checks pass.
-   - **Merge**: Use GitHub's interface to merge the pull request. Choose the appropriate merge strategy (merge commit, squash and merge, or rebase and merge).
-   - **Delete the Feature Branch**: Optionally delete the feature branch from GitHub to clean up.
+6. Merge the Pull Request
+   - Check for Approval and Passing Checks: Ensure that you have the necessary approvals and that all checks pass.
+   - Merge: Use GitHub's interface to merge the pull request. Choose the appropriate merge strategy (merge commit, squash and merge, or rebase and merge).
+   - Delete the Feature Branch: Optionally delete the feature branch from GitHub to clean up.
 
-7. **Post-Merge Actions**
-   - **Pull Changes to Local Main Branch**: Update your local `main` or `master` branch with `git checkout main` and `git pull origin main`.
-   - **Close Linked Issues**: Manually close any related issues if they are not automatically closed by GitHub.
-   - **Notify Your Team**: Inform your team or relevant stakeholders that the changes have been merged, especially if they impact ongoing work or start new dependencies.
+7. Post-Merge Actions**
+   - Pull Changes to Local Main Branch: Update your local `main` or `master` branch with `git checkout main` and `git pull origin main`.
+   - Close Linked Issues: Manually close any related issues if they are not automatically closed by GitHub.
+   - Notify Your Team: Inform your team or relevant stakeholders that the changes have been merged, especially if they impact ongoing work or start new dependencies.
