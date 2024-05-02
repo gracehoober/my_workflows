@@ -1,5 +1,3 @@
-Certainly! Here's a comprehensive outline of the workflow for managing a pull request from start to finish:
-
 ### Workflow Outline for Managing a Pull Request- helpful reminder
 
 1. **Create a Branch**
@@ -32,5 +30,3 @@ Certainly! Here's a comprehensive outline of the workflow for managing a pull re
    - **Pull Changes to Local Main Branch**: Update your local `main` or `master` branch with `git checkout main` and `git pull origin main`.
    - **Close Linked Issues**: Manually close any related issues if they are not automatically closed by GitHub.
    - **Notify Your Team**: Inform your team or relevant stakeholders that the changes have been merged, especially if they impact ongoing work or start new dependencies.
-
-This outline provides a structured approach to managing changes through pull requests, ensuring clarity and organization throughout the development process.
