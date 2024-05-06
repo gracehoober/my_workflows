@@ -5,7 +5,7 @@
    - Create and Switch to Your New Branch: Use `git checkout -b your-branch-name` to create and switch to your new branch.
 
 2. Make Changes Locally
-   - Edit, Add, and Commit Changes: Make your changes, use `git add .` to stage them, and `git commit -m "your commit message"` to commit them.
+   - Edit, Add, and Commit Changes: Make your changes, use `git add ` to stage them, and `git commit -m "your commit message"` to commit them.
 
 3. Push Changes to Remote Repository
    - First Push with Upstream: Use `git push --set-upstream origin your-branch-name` to push your branch to the remote repository and set the tracking branch.
